@@ -2,8 +2,8 @@ site_name: Sungkyunkwan University Medical Big Data Lab
 
 theme:
   name: material
-  logo: _assets/skku_logo.svg
-  favicon: _assets/skku_logo.svg
+  logo: assets/skku_logo.svg
+  favicon: assets/skku_logo.svg
 
   features:
     - navigation.tabs
@@ -31,6 +31,9 @@ markdown_extensions:
   - admonition
   - attr_list
   - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
@@ -66,5 +69,6 @@ extra:
 
 plugins:
   - glightbox
+  - search
 
 copyright: Copyright &copy; 2024. Medical Big Data Lab, School of Medicine, Sungkyunkwan University. All rights reserved.
