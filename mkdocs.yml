@@ -1,0 +1,70 @@
+site_name: Sungkyunkwan University Medical Big Data Lab
+
+theme:
+  name: material
+  logo: _assets/skku_logo.svg
+  favicon: _assets/skku_logo.svg
+
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.indexes
+    - navigation.path
+    - navigation.top
+
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+nav:
+  - Home: index.md
+  - About:
+      - about/index.md
+      - Members:
+          - Professor: about/members/professor.md
+          - Members: about/members/members.md
+          - Alumni: about/members/alumni.md
+      - News: about/news.md
+  - Field of Study:
+      - field_of_study/index.md
+      - Collaborative Research: field_of_study/collaborative.md
+  - Achievements:
+      - achievements/index.md
+      - Highly Cited Researches: achievements/highly_cited.md
+      - Patents and Technologies: achievements/patent.md
+      - Projects and Grants: achievements/project.md
+  - Recruitment: recruitment.md
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/skkumbdl
+    - icon: fontawesome/solid/globe
+      link: https://www.skkumed.ac.kr/
+    - icon: fontawesome/solid/envelope
+      link: mailto:swleemd@g.skku.edu
+
+plugins:
+  - glightbox
+
+copyright: Copyright &copy; 2024. Medical Big Data Lab, School of Medicine, Sungkyunkwan University. All rights reserved.
