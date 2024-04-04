@@ -1,7 +1,7 @@
 # Achievements
 
 [Google Scholar](https://scholar.google.co.kr/citations?hl=ko&user=8mIJ8mcAAAAJ&sortby=pubdate){ .md-button }
-[Recent News](../about/news){ .md-button }
+[Recent News](../about/news.md){ .md-button }
 
 ## 전체 연구실적
 

@@ -13,14 +13,12 @@ theme:
     - navigation.top
 
   palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
+    - scheme: default
       primary: teal
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
+    - scheme: slate
       primary: teal
       toggle:
         icon: material/weather-sunny
@@ -39,23 +37,27 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 nav:
-  - Home: index.md
+  - Home: posts.md
   - About:
-      - about/index.md
+      - about/posts.md
       - Members:
           - Professor: about/members/professor.md
           - Members: about/members/members.md
           - Alumni: about/members/alumni.md
       - News: about/news.md
   - Field of Study:
-      - field_of_study/index.md
+      - field_of_study/posts.md
       - Collaborative Research: field_of_study/collaborative.md
   - Achievements:
-      - achievements/index.md
+      - achievements/posts.md
       - Highly Cited Researches: achievements/highly_cited.md
       - Patents and Technologies: achievements/patent.md
       - Projects and Grants: achievements/project.md
   - Recruitment: recruitment.md
+  - Community:
+      - posts/index.md
+      - Gallery of 2024: posts/gallery_of_2024.md
+      - Gallery of 2023: posts/gallery_of_2023.md
 
 extra:
   generator: false
@@ -70,5 +72,8 @@ extra:
 plugins:
   - glightbox
   - search
+  - blog:
+      blog_dir: posts
+
 
 copyright: Copyright &copy; 2024. Medical Big Data Lab, School of Medicine, Sungkyunkwan University. All rights reserved.

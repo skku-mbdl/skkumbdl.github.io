@@ -50,5 +50,5 @@ who can lead new medical research innovations during the Fourth Industrial Revol
 총 피인용 4460회**
 
 [Google Scholar](https://scholar.google.co.kr/citations?hl=ko&user=8mIJ8mcAAAAJ&sortby=pubdate){ .md-button }
-[Recent News](about/news){ .md-button }
+[Recent News](about/news.md){ .md-button }
 [Contact Us](about/index.md#contact-us){ .md-button }
