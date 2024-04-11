@@ -75,5 +75,4 @@ plugins:
   - blog:
       blog_dir: posts
 
-
 copyright: Copyright &copy; 2024. Medical Big Data Lab, School of Medicine, Sungkyunkwan University. All rights reserved.
